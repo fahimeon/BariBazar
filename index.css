@@ -1,0 +1,13 @@
+/* BariBazar base styles */
+/* Tailwind is loaded via CDN in index.html - this file provides app-specific overrides */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
